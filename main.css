@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
 }
+/*------------main section------------*/
 body{
 
     font-family: 'Poppins', sans-serif;
@@ -12,21 +13,69 @@ h1{
 }
 section{
     display:flex;
+   
+}
+.welcome-part{
+
+    background-image: url(pic/top-banner.png);
+    background-repeat: no-repeat;
 }
 .welcomeone{
     width: 50%;
+    margin: 55px;
+    padding-left: 19px;
 }
+
 .hire-button{
-    border: 2px solid black;
-    border-radius: 11px;
-    width: 150px;
-    height: 50px;
-    background-color:coral;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: honeydew;
+   
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 13px 37px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
-.hire-button:hover{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px;
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 1000;
+    font-size: 20px;
+}
+.mainsectionpic{
+    margin-top: 50px;
+    margin-left: 54px;
+    height: 500px;
+    width: 500px;
+}
+.name-color{
+    color: orange;
+}
+/*--------------part2----------------*/
+.beforehire{
+    width: 50%;
+    margin: 84px;
+    padding-left: 97px;
+}
+.secondpart{
+    
+    background-image: url(pic/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.resume-button{
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 13px 37px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+/*----------part3-----------*/
+.exprience{
+    text-align: center;
+    color:tomato;
+}
+.sectionthree{
+    width: 50%;
+    margin: 84px;
+    padding-left: 97px;
+    box-shadow: #ffffff;
+
 }
